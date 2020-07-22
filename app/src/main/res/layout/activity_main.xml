@@ -161,4 +161,15 @@
         app:layout_constraintBottom_toBottomOf="@+id/maquina"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <Button
+        android:id="@+id/btnJogarNovamente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="JOGAR NOVAMENTE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maquina" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
